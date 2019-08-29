@@ -158,7 +158,7 @@ pages:
     title: Pagina non trovata :(
     description: La pagina richiesta non è stata trovata.
   page500:
-    title: "Something was going wrong :("
+    title: "Quelcosa é andato storto:("
   algorithms:
     title: algoritmi
     complexity:
@@ -166,21 +166,14 @@ pages:
       average: Media
       worst: Peggio
     sorting:
-      title: Ordinamento
-      description: Un algoritmo di ordinamento è un algoritmo che mette gli elementi
-        di una lista in un certo ordine. Gli ordini più usati sono l&#39;ordine numerico
-        e l&#39;ordine lessicografico. L&#39;ordinamento efficiente è importante per
-        ottimizzare l&#39;uso di altri algoritmi (come gli algoritmi di ricerca e fusione)
-        che richiedono che i dati di input siano in elenchi ordinati; è anche spesso
-        utile per la canonicalizzazione dei dati e per la produzione di output leggibile
-        dall&#39;uomo.
+      title: Ordinazione
+      description: Un algoritmo di sorting è un algoritmo che ordina gli elementi di una lista. I criteri piú usati sono ordine numerico e ordine alfabetico. L'ordinamento efficiente è importante per ottimizzare l'uso di altri algoritmi (come gli algoritmi di Search & Merge) che richiedono che i dati richiesti si mostrino ordinati; è anche spesso utile per la canonicalizzazione dei dati e per la produzione di output leggibile.
       bubble_sort:
         title: Bubble sort
-        description: Bubble sort ha molte delle stesse proprietà dell&#39;insertion
-          sort, ma ha un overhead leggermente superiore. Nel caso di dati quasi ordinati,
-          l&#39;ordinamento di bolle richiede <span class="code-inline time">O(n)</span>
-          , ma richiede almeno 2 passaggi attraverso i dati (mentre l&#39;ordinamento
-          di inserimento richiede qualcosa di più simile a 1 passaggio).
+        description: Bubble sort é simile all'insertion
+          sort, ma ha un overhead leggermente superiore. Nel caso di dati iniziali che sono quasi giá ordinati,
+          Bubble Sort ha una durazione di <span class="code-inline time">O(n)</span>
+          , ma richiede almeno 2 passaggi di dati (mentre l'insertion sort richiede  1 solo passaggio.
       insertion_sort:
         title: Inserimento sort
         description: Sebbene sia uno degli algoritmi di ordinamento elementare con <span
